@@ -45,12 +45,13 @@ const Svg = styled.svg`
   transform: rotate(-90deg);
 `;
 const Circle = styled.circle`
-  stroke-dasharray: 150; /* this value is the pixel circumference of the circle */
+  stroke: url(#radioButtonGradient); /* from component RadioButtonGradient.js */
+  stroke-dasharray: 150;
   stroke-dashoffset: 150;
 
   @keyframes donutAnimation {
     to {
-      stroke-dashoffset: 10; /* 50% would be 220 (half the initial value specified above) */
+      stroke-dashoffset: 10;
     }
   }
 
