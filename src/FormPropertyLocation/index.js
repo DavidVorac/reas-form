@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 import FormContent from "./FormContent";
+import RadioButtonGradient from "../FormElements/RadioButtonGradient";
 
 import ImgPath from "../assets/icons/checkmark.svg";
 
@@ -92,6 +93,7 @@ const FormPropertyLocation = () => {
   return (
     <FormCard>
       <Form>
+        <RadioButtonGradient />
         {results === null ? (
           <FormContent
             callback={(region, district) => handleFormSubmit(region, district)}
