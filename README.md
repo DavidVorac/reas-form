@@ -1,7 +1,7 @@
-**<p align="center"><a href="http://reas-form.davidvorac.cz/" target="_BLANK">DEMO</a></p>**
+**<p align="center"><a href="https://reas-form.now.sh" target="_BLANK">DEMO</a></p>**
 
 <p align="center">Responsive React App - form for easy data handling from radio inputs.</p>
-<p align="center"><img width="240" alt="form icon" src="http://reas-form.davidvorac.cz/custom/form-github.png"></p>
+<p align="center"><img width="240" alt="form icon" src="./form-github.png"></p>
 
 **Want to try out locally?**
 <br />
